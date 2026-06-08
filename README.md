@@ -6,6 +6,14 @@ This repository contains a collection of cleaned and documented notebooks based 
 
 The goal of this project is to demonstrate a clear scientific-computing workflow using Python, NumPy, SciPy and Matplotlib.
 
+## Live Demo
+
+A combined Kaggle version of the project is available here:
+
+[Computational Physics: Numerical Methods in Python](https://www.kaggle.com/code/albertoreyescastro20/computational-physics-numerical-methods-in-python)
+
+The Kaggle notebook groups the four practices into a single executable showcase.
+
 ## Project Overview
 
 The repository is organised into four main notebooks:
@@ -17,6 +25,30 @@ notebooks/
 ├── 03_ode_solvers.ipynb
 └── 04_stochastic_harmonic_oscillator.ipynb
 ```
+
+## Preview
+
+### Polynomial Interpolation
+
+![Lagrange interpolation](figures/01_lagrange_interpolation.png)
+
+![Newton interpolation](figures/01_newton_interpolation.png)
+
+![Interpolation comparison](figures/01_interpolation_comparison.png)
+
+![Sine interpolation](figures/01_sine_interpolation.png)
+
+### Numerical Integration and Planck's Law
+
+![Planck law solar irradiance](figures/02_planck_solar_irradiance.png)
+
+### ODE Solvers
+
+![ODE solvers comparison](figures/03_ode_solvers_comparison.png)
+
+### Stochastic Harmonic Oscillator
+
+![Stochastic harmonic oscillator](figures/04_stochastic_harmonic_oscillator.png)
 
 ## Notebooks
 
@@ -102,6 +134,15 @@ computational-physics-numerical-methods/
 ├── requirements.txt
 ├── .gitignore
 ├── LICENSE
+│
+├── figures/
+│   ├── 01_lagrange_interpolation.png
+│   ├── 01_newton_interpolation.png
+│   ├── 01_interpolation_comparison.png
+│   ├── 01_sine_interpolation.png
+│   ├── 02_planck_solar_irradiance.png
+│   ├── 03_ode_solvers_comparison.png
+│   └── 04_stochastic_harmonic_oscillator.png
 │
 └── notebooks/
     ├── 01_interpolation_lagrange_newton.ipynb
